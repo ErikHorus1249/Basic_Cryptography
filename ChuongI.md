@@ -31,11 +31,11 @@
 - Thám mã : là ngành khoa học khôi phục lại thông điệp mà không cần biết khóa.
 	 1. Tấn công khi chỉ biết bản mã (**ciphertext-only attack**) ;
 	  
-	  2. Tấn công đã biết thông điệp (**known-plaintext attack**):
+	 2. Tấn công đã biết thông điệp (**known-plaintext attack**):
 	  
 	 3. Tấn công chọn thông điệp rõ (**chosen plaintext attack**) ;
 	 
-	 5. Tấn công chọn thông điệp thích hợp (**adaptive-chosen-ciphertext attack**).
+	 4. Tấn công chọn thông điệp thích hợp (**adaptive-chosen-ciphertext attack**).
 
 
  
