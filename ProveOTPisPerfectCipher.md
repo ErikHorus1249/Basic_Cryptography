@@ -14,7 +14,7 @@
 - Định lý [Bayes](https://vi.wikipedia.org/wiki/%C4%90%E1%BB%8Bnh_l%C3%BD_Bayes) : ![](https://i.imgur.com/jFB7fXb.png)
 
 ``` P(x|y) = P(x)*P(y)/P(y)```**(1)**
-- Đối với các mã hóa **OTP** là phép cộng **modulo 2 (XOR)** của thông điệp và khóa cho nên mỗi một khóa **k** thuộc **K** và **x** thuộc **P**(plaintext) ta có một mã **y** thuộc **C**(ciphertext) 
+- Đối với cách mã hóa **OTP** là phép cộng **modulo 2 (XOR)** của thông điệp và khóa cho nên mỗi một khóa **k** thuộc **K** và **x** thuộc **P**(plaintext) ta có một mã **y** thuộc **C**(ciphertext) 
 
 	=> Xác suất hậu nghiệm của mã **y** chắc chắn phải do một **k** duy nhất quyết định mà **k** được lấy một cách ngẫu nhiên trong tâp **K** 
 
