@@ -1,0 +1,82 @@
+c = E(k,m) 
+m = D(k, c) 
+
+KHÓA ĐỐI XỨNG symmetric 
+khóa dể giải mã và khóa để mã hóa có thể khác nhau
+
+c = E(k1, m) 
+m = D(k2, c) 
+k1 ~ k2 
+
+hệ mã đối xứng thì k1 = k2 một cách tương đối
+từ k1 ta có thể suy ra k2 và ngược lại một cách  đễ dàng 
+
+vd hệ mật caesar : c = (m+k1) mod 26 
+m = (c + k2) mod 26
+k1 + k2 = 26 , k1 + k2 = 0 mod 26 
+=> k2 = 26 - k1 
+=> k1 là nghịch đảo k2
+Z_26 = {0,25} + mod 26
+
+đối với mã hóa đối xứng thì k1 và k2 phải giữ bí mật
+
+m = D(k2, C(k1, m)) 
+
+
+II. các kĩ thuật mã hóa đối xứng cổ điển
+
+1 Thay thế SUBSTITUTION
+
+a. Thay thế đơn kí tự : Mono-alphabetic 
+Caesar thay thế 1 - 1 
+vd k = 3 => m =  => c = D
+=> thay thế dịch vòng phải 
+
+b Thay thế bằng hóa vị - đa kí tự poly-alphabetic 
+
+2 hoán vị permutation
+Nếu mỗi ký tự m sử dung 1 khóa thì ta có bao nhiêu bao nhiêu phương án chọn khóa 26! 
+3 XOR
+
+
+C = M * K 
+M = C * K^{-1} 
+k1 * k2 = I 
+k1, k2 là phần tử nghịch dảo thông qua nhân ma trận 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
